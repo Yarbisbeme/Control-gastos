@@ -1,4 +1,5 @@
 export * from './App';
+export * from './Components/templates/loginTemplate';
 export * from './main';
 export * from './pages/home';
 export * from './pages/login';

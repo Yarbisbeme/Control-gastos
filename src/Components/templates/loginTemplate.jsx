@@ -1,10 +1,9 @@
 
-import { LoginTemplate } from "../index"
 import styled from "styled-components";
-export function Login() {
+export function LoginTemplate() {
   return (
     <Container>
-      <LoginTemplate/>
+      <h1>LoginTemplate</h1>
     </Container>
   );
 }
