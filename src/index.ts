@@ -1,3 +1,5 @@
+export * from './styles/themes';
+export * from './styles/variables';
 export * from './App';
 export * from './Components/atomos/Icono';
 export * from './Components/moleculas/BtnSave';
@@ -6,5 +8,3 @@ export * from './main';
 export * from './pages/home';
 export * from './pages/login';
 export * from './router/routes';
-export * from './styles/themes';
-export * from './styles/variables';

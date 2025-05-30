@@ -23,7 +23,7 @@ import { BsBarChartLine } from "react-icons/bs";
 import { AiOutlineCalculator } from "react-icons/ai";
 import { BsCalendarCheck } from "react-icons/bs";
 import fondo from "../assets/fondo1.svg";
-export const v = {
+export const variables = {
   sidebarWidth: `300px`,
   sidebarWidthInitial: `10vw`,
   smSpacing: `8px`,
