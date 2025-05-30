@@ -13,7 +13,9 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{setTheme, theme}}>
-      <MyRoutes/>
+      <ThemeProvider theme={ThemeStyle}>
+        <MyRoutes/>
+      </ThemeProvider>
     </ThemeContext.Provider>
   )
 }

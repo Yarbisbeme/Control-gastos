@@ -11,7 +11,7 @@ export function LoginTemplate() {
             <Titulo>Cerdyn</Titulo>
             <p className="frase">Toma el control de tus 💵gastos e 💰ingresos</p>
             <ContainerBtn>
-              <BtnSave></BtnSave>
+              <BtnSave titulo={"Iniciar con google"} icono={<v.iconogoogle/>} />
             </ContainerBtn>
         </div>
     </Container>
@@ -22,7 +22,6 @@ const Container =styled.div`
   background-size: cover;
   height: 100vh;
   .contentCard{
-    background-color: black;
     border-radius: 20px;
     gap: 30px;
     display: flex;

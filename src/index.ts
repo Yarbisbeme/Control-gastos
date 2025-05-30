@@ -1,4 +1,5 @@
 export * from './App';
+export * from './Components/atomos/Icono';
 export * from './Components/moleculas/BtnSave';
 export * from './Components/templates/loginTemplate';
 export * from './main';
